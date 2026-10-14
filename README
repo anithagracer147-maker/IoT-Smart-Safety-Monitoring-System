@@ -1,2 +1,32 @@
 # IoT-Smart-Safety-Monitoring-System
 ESP32-based safety monitoring system simulated using Wokwi
+## Project Overview
+
+This project simulates an IoT-based safety monitoring system using an ESP32 in Wokwi.
+
+## Components Used
+- ESP32
+- Two potentiometers (simulated sensor inputs)
+- Red LED
+- Green LED
+- Buzzer
+- 220Ω resistors
+
+## Working
+- Monitors simulated temperature and gas levels.
+- Green LED indicates a safe condition.
+- Red LED and buzzer indicate an unsafe condition.
+- Sensor values and status are displayed in the Serial Monitor.
+
+## Tools Used
+- Arduino C++
+- Wokwi Simulator
+- GitHub
+
+## Project Type
+Virtual simulation project. No physical hardware used.
+
+## Future Improvements
+- Connect real sensors.
+- Add Wi-Fi notifications.
+- Develop a monitoring dashboard.
